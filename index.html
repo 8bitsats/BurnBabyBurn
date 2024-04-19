@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burn Runes Tokens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Burn Runes Tokens</h1>
+        <form id="burnForm">
+            <label for="amount">Amount to Burn:</label>
+            <input type="number" id="amount" required>
+            <button type="button" onclick="burnTokens()">Burn Tokens</button>
+        </form>
+        <p id="status"></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
